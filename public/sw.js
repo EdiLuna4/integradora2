@@ -3,13 +3,14 @@
 //asignar un nombre y versión al cache
 const CACHE_NAME = 'v1_pwa_app_cache',
     urlsToCache = [
-        './',
-        './index.html',
+       // './',
+        'index.html',
         'src/App.js',
         'src/App.css',
         'src/script.js',
         '/public/logo192.png',
-        '/public/favicon.ico'
+        '/public/favicon.ico',
+        'offline.html',
     ]
 
 //durante la fase de instalación, generalmente se almacena en caché los activos estáticos
